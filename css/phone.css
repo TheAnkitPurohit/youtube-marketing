@@ -1,0 +1,68 @@
+@media (max-width: 500px) {
+  html {
+    font-size: 7px;
+  }
+  body {
+    background-color: red;
+  }
+  .brand {
+    padding: 0 22px;
+  }
+  nav ul li {
+    padding: 0 4px;
+  }
+  nav ul a {
+    padding: 6px 9px;
+  }
+  .home-container {
+    min-height: 40vh;
+  }
+  .services-container {
+    flex-direction: column;
+  }
+  .services-container .services-box {
+    height: auto;
+    width: 76vw;
+    margin-top: 10px;
+  }
+  .prev {
+    left: 6%;
+  }
+  .next {
+    left: 86%;
+  }
+  .clients-img {
+    width: 68%;
+  }
+  .founder {
+    width: 148px;
+  }
+  .h-secondary {
+    font-size: 2rem;
+    margin: 23px 0;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+  }
+  .smContainer a {
+    background-color: white;
+    padding: 6px;
+    border-radius: 30px;
+    margin: 5px 2px;
+    text-decoration: none;
+  }
+  .contact-container {
+    padding: 0;
+    flex-direction: column-reverse;
+    max-width: auto;
+    margin: 0;
+  }
+  .contact-text-box {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+  }
+  .contact-form {
+    max-width: 80vw;
+    width: 70vw;
+  }
+}

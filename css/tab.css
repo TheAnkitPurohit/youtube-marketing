@@ -1,0 +1,30 @@
+@media (max-width: 900px) {
+  html {
+    font-size: 10px;
+  }
+  .home-container {
+    min-height: 60vh;
+  }
+  .home-img-box img {
+    width: 35vw;
+  }
+  .services-container .services-box {
+    width: 25vw;
+    height: 30vh;
+  }
+  #clients {
+    min-height: 25vh;
+  }
+  .next {
+    top: 43%;
+  }
+  .founder {
+    width: 220px;
+  }
+  .contact-container .fa {
+    padding: 0px 4px;
+  }
+  .contact-form {
+    padding: 2rem 3rem;
+  }
+}
